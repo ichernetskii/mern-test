@@ -1,0 +1,23 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+.auth-btnEnter {
+    margin-right: 10px;
+}
+
+.auth-input {
+    border-bottom: 1px solid #FFF !important;
+    box-shadow: 0 1px 0 0 #FFF !important;
+}
+
+.auth-input:focus {
+    border-bottom-color: #FFEB3B !important;
+    box-shadow: 0 1px 0 0 #FFEB3B !important;
+}
+
+.auth-label {
+    color: #FFF !important;
+}
+
+.auth-input:focus + .auth-label {
+    color: #FFEB3B !important;
+}
