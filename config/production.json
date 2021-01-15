@@ -1,6 +1,6 @@
 {
-  "port": 5000,
+  "port": 80,
   "mongoUri": "mongodb+srv://elias:pwd123@cluster0.b8cdl.mongodb.net/<dbname>?retryWrites=true&w=majority",
   "jwtSecret": "jwtSecrenToket!_128@",
-  "baseUrl": "http://localhost:5000"
+  "baseUrl": "http://merrn.smarto.pro"
 }
