@@ -2,5 +2,5 @@
   "port": 80,
   "mongoUri": "mongodb+srv://elias:pwd123@cluster0.b8cdl.mongodb.net/<dbname>?retryWrites=true&w=majority",
   "jwtSecret": "jwtSecrenToket!_128@",
-  "baseUrl": "http://merrn.smarto.pro"
+  "baseUrl": "http://mern.smarto.pro"
 }
