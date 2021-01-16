@@ -1,6 +1,6 @@
 {
   "port": 5000,
-  "mongoUri": "mongodb+srv://elias:pwd123@cluster0.b8cdl.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "mongoUri": "mongodb://localhost:27017/mern",
   "jwtSecret": "jwtSecrenToket!_128@",
   "baseUrl": "http://localhost:5000"
 }
