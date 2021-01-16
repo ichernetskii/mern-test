@@ -1,6 +1,6 @@
 {
   "port": 80,
-  "mongoUri": "mongodb://ilya:ilya239@3.126.168.10:27017/?authSource=admin",
+  "mongoUri": "mongodb://ilya:ilya239@3.126.168.10:27017/mern?authSource=admin",
   "jwtSecret": "jwtSecrenToket!_128@",
   "baseUrl": "http://mern.smarto.pro"
 }
