@@ -1,6 +1,6 @@
 {
   "port": 5000,
-  "mongoUri": "mongodb://localhost:27017/mern",
+  "mongoUri": "mongodb://ilya:ilya239@localhost:27017/mern?authSource=admin",
   "jwtSecret": "jwtSecrenToket!_128@",
   "baseUrl": "http://localhost:5000"
 }
