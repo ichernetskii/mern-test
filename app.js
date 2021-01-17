@@ -3,6 +3,7 @@ const path = require("path");
 // EXPRESS
 const express = require("express");
 const app = express();
+const helmet = require('helmet');
 
 // CONFIG
 const config = require("config");
@@ -10,6 +11,7 @@ const PORT = config.get("port") ?? 5000;
 const MONGO_URI = config.get("mongoUri");
 
 app.use(express.json({ extended: true }));
+app.use(helmet());
 
 // ROUTES
 const authRouter = require("./routes/auth.routes.js");
