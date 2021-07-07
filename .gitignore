@@ -1,7 +1,6 @@
 .idea
 node_modules
-.git
-package-lock.json
 default-key-pair.pem
 default
 ubuntu-script.txt
+config/production.json

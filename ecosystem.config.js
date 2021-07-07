@@ -11,9 +11,12 @@ module.exports = {
         error_file: "err.log",
         out_file: "out.log",
         log_file: "combined.log",
-        time: true,
-        watch: ["config", "middleware", "models", "routes", "app.js"],
-        ignore_watch: ["node_modules", "client"],
-        watch_delay: 1000
+        autorestart: true,
+        watch: false,
+        instance_var: "5000",
+        append_env_to_name: true
+        // watch: ["config", "middleware", "models", "routes", "app.js"],
+        // ignore_watch: ["node_modules", "client"],
+        // watch_delay: 1000
     }]
 }
